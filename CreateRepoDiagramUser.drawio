@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T05:06:20.412Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="g3Y4y4T4Sqh60ZTd8Hay" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T05:08:57.192Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="HA-fs_ecJMPO4DLUUumi" version="23.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1696" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1396" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -31,11 +31,35 @@
         <mxCell id="ksI_HsD7QUT4PGxRx7-G-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ksI_HsD7QUT4PGxRx7-G-7" target="ksI_HsD7QUT4PGxRx7-G-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ksI_HsD7QUT4PGxRx7-G-13" value="valid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ksI_HsD7QUT4PGxRx7-G-10">
+          <mxGeometry x="-0.178" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ksI_HsD7QUT4PGxRx7-G-7" value="Verify Branch Creation" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="331.25" y="490" width="97.5" height="105" as="geometry" />
         </mxCell>
+        <mxCell id="ksI_HsD7QUT4PGxRx7-G-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.908;entryY=0.586;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ksI_HsD7QUT4PGxRx7-G-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="560" as="targetPoint" />
+            <mxPoint x="380" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="440" y="610" />
+              <mxPoint x="460" y="610" />
+              <mxPoint x="460" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ksI_HsD7QUT4PGxRx7-G-17" value="Not Valid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ksI_HsD7QUT4PGxRx7-G-16">
+          <mxGeometry x="0.3633" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ksI_HsD7QUT4PGxRx7-G-9" value="On Main branch" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ksI_HsD7QUT4PGxRx7-G-11" value="You can now, start working on branch and add commits" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="620" width="170" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
